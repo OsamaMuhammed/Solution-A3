@@ -1,0 +1,48 @@
+*{
+	padding:0
+	margin:0
+}
+#Header{
+	font-size: 1.5em;
+	background-color: lightgrey;
+}
+#List{
+	margin-top: 10px;
+	position: static;
+	clear: both;
+}
+#List a{
+	text-align: center;
+	background-color: lightgrey;
+}
+#List a:hover{
+	background:lightgreen;
+}
+#DText{
+	background-color: lightgrey;
+	margin: 10px;
+	padding: 5px;
+	height: 100%;
+	overflow: hidden;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+@media (max-width: 767px){
+
+#DText{
+	background-color: lightgrey;
+	margin: auto;
+	padding: 5px;
+	height: 100%;
+	overflow: hidden;
+	width: 70%
+
+}
+}
